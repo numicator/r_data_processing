@@ -57,7 +57,7 @@ Exercise 2: Converting a spreadsheet-like data file into a 'normal' format
 for statistical analyses.
 ```
 
-## Data processing with dplyr package:
+## Data processing with _dplyr_ package:
   - _dplyr_ and the data processing workflow: split - apply - combine.
   - Selecting columns and filtering rows.
   - Creating new columns.
