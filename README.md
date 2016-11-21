@@ -16,8 +16,8 @@ Date: 18-11-2016
 5. Adding new columns with calculated values.
 6. Writing functions.
 7. Traversing data with the apply functions.
-8. Using _tidyr_
-9. Using _dplyr_
+8. Data reshaping with _tidyr_.
+9. Daya processing with _dplyr_.
 
 ---
 *** First 6-hours session: ***
@@ -27,10 +27,12 @@ Date: 18-11-2016
  - RStudio IDE (Integrated Development Environment).
  - Help in R and RStudio.
  - Concept of an RStudio project.
+
 ## Data types in R, and type conversions.
  - Atomic vectors.
  - Type conversions and coercions.
  - Working with date and date-time.
+
 ## Files:
  - downloading,
  - reading,
