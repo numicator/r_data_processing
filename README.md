@@ -74,7 +74,7 @@ for statistical analyses.
 
 ```
 Exercise 3: We will use a data set containing three tables (files). 
-We will learn how to join the data files together using dplyr. How to filter 
+We will learn how to join the data files together using _dplyr_. How to filter 
 observations, choose columns, calculate new columns, and change scope of the 
 analysis (grouping observations by factors).
 ```
