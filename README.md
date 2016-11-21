@@ -17,7 +17,7 @@ Date: 18-11-2016
 6. Writing functions.
 7. Traversing data with the apply functions.
 8. Data reshaping with _tidyr_.
-9. Daya processing with _dplyr_.
+9. Data processing with _dplyr_.
 
 ---
 *** First 6-hours session: ***
@@ -31,7 +31,7 @@ Date: 18-11-2016
 ## Data types in R, and type conversions.
  - Atomic vectors.
  - Type conversions and coercions.
- - Working with date and date-time.
+ - Working with date and date-time formats.
 
 ## Working with files:
  - How to organize your directory structure.
@@ -104,10 +104,10 @@ a test dataset (which we first create).
 ```
 Exercise 6: We will learn use of apply functions by processing two datasets: 
 We will traverse the data column-by-column and row-by-row. We will write our 
-own functions to be applied for each row and column, learn that we do not 
-always need to explicitly name a function - we can use anonymous function for 
-small tasks. We will also see some tricks and nuisances associated with the 
-apply functions.
+own functions to be applied for each row and column.
+We will learn that we do not always need to explicitly name a function 
+- instead we can use anonymous function for small tasks. We will also see 
+some tricks and nuisances associated with the apply functions.
 ```
 
 # Processing multiple files:
