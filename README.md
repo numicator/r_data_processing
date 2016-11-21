@@ -10,7 +10,7 @@ Date: 18-11-2016
 > The first session is for beginners, the second for more advanced users.
 
 ## Learning objectives:
-1. Data types in R, and type conversions.
+1. Understanding data types in R, and type conversions.
 2. Loading and saving tab and coma delimited files.
 3. Detecting and handling errors an missing values in the data.
 4. Data sub-setting and filtering.
@@ -39,21 +39,21 @@ Date: 18-11-2016
    
 ## Data processing:
  - Reading data files - the family of read.xxxx functions.
- - Checking your data for errors and inconsistences.
- - Data corection - finding and replacing values using subsetting.
+ - Checking your data for errors and inconsistencies.
+ - Data correction - finding and replacing values using subsetting.
  - Writing data files.
  - Be careful with '$' partial matching!
 
 ```
 Exercise 1: Processing of a 'dirty' dataset - finding and correcting errors. 
-We will be working on a dataset containing some errant data. We will learn 
+We will be working on a dataset containing some erroneous data. We will learn 
 ways of finding and correcting or deleting incorrect records. We will 
 find-and-replace values, create new columns and delete existing ones. Then we 
-will write corrected dataset on the disk.
+will write the corrected dataset on the disk.
 ```
 
 ## Data reshaping with _tidyr_ package:
- - Why may we need to 'reshape' our data?
+ - Why might we need to 'reshape' our data?
  - The 'normal' data format for statistical analyses: column represent variables, rows represent observation.
  - The 'wide', or spreadsheet format.
  - Conversion from wide to normal with _gather()_, _separate()_ and _spread()_ functions
@@ -87,7 +87,7 @@ We will use the Ensembl genome browser database and an example.
 ## Other functions for joining datasets:
  - _dplyr_ functions: _bind_cols()_, _bind_rows()_, _union()_, _intersection()_, and _set_diff()_
  - base functions: _cbind()_, _rbind()_, _merge()_, _union()_, _intersect()_, _setdiff()_
- - _plyr_ package and its familly of _xxply(.data, .variables, .fun)_ functions.
+ - _plyr_ package and its family of _xxply(.data, .variables, .fun)_ functions.
 
 > Due to the time limitations there will be no exercises for this subject, only a short presentation.
 
@@ -121,11 +121,11 @@ functions.
  - Creating a new data frame when traversing.
 
 ```
-Exercise 6: We will learn use of apply functions by processing two datasets: 
+Exercise 6: We will learn how to use the apply functions by processing two datasets: 
 We will traverse the data column-by-column and row-by-row. We will write our 
 own functions to be applied for each row and column.
 We will learn that we do not always need to explicitly name a function 
-- instead we can use anonymous function for small tasks. We will also see 
+- instead we can use anonymous functions for small tasks. We will also see 
 some tricks and nuisances associated with the apply functions.
 ```
 
