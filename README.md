@@ -66,11 +66,15 @@ for statistical analyses.
   - Accessing remote SQL databases.
 
 ```
-Exercise 3: We will use a data set containing three joined tables (files). 
+Exercise 3: We will use a data set containing three tables (files). 
 We will learn how to join the data files together using dplyr. How to filter 
 observations, choose columns, calculate new columns, and change scope of the 
-analysis (grouping observations by factors). We will learn how to connect 
-to an external, remote SQL database.
+analysis (grouping observations by factors).
+```
+
+```
+Exercise 4: We will learn how to connect to an external, remote SQL database.
+We will use the Ensembl genome browser database and an example.
 ```
 
 ## Other functions for joining datasets:
@@ -87,7 +91,7 @@ to an external, remote SQL database.
  - Special functions: Infix and replacement
 
 ```
-Exercise 4: We will write a function calculating area under a curve given 
+Exercise 5: We will write a function calculating area under a curve given 
 as a set of (x-y) points. The area (the integral) will be numerically 
 calculated using the trapezoid rule. Then we will test our new function on 
 a test dataset (which we first create).
@@ -97,7 +101,7 @@ a test dataset (which we first create).
  - short presentation of the family members with special focus on _apply()_, _lapply()_, and _sapply()_
 
 ```
-Exercise 5: We will learn use of apply functions by processing two datasets: 
+Exercise 6: We will learn use of apply functions by processing two datasets: 
 We will traverse the data column-by-column and row-by-row. We will write our 
 own functions to be applied for each row and column, learn that we do not 
 always need to explicitly name a function - we can use anonymous function for 
@@ -110,7 +114,7 @@ apply functions.
  - Processing files one-by-one using the _for_ loop.
 
 ```
-Exercise 6: We will download a ZIP archive containing numerous files with 
+Exercise 7: We will download a ZIP archive containing numerous files with 
 gene expression data. We will learn how to unzip it directly from R, get 
 their names and process them interactively: We will collect a specific column 
 from each of the files and create a new file with combined data - a data 
