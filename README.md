@@ -3,6 +3,7 @@ Author: Marcin Adamski
 Affiliation: CBBU, RSB ANU
 Date: 18-11-2016
 
+---
 # *** Data Processing in R ***
 
 ### Time: Two 6 hour sessions
@@ -29,15 +30,18 @@ Date: 18-11-2016
  - Concept of an RStudio project.
 
 ## Data types in R, and type conversions.
- - Atomic vectors.
+ - Atomic vectors of integer, numeric (double), character, complex, and logical types.
+ - Attributes.
  - Type conversions and coercions.
  - Working with date and date-time formats.
-
-## Working with files:
- - How to organize your directory structure.
- - Downloading files form the web.
- - Reading data files.
- - Writing dta files.
+   - Formating date and date-time.
+   - The _POSIXct_ and _POSIXlt_ date-time formats.
+   
+## Data processing:
+ - Reading data files - the family of read.xxxx functions.
+ - Checking your data for errors and inconsistences.
+ - Data corection - finding and replacing values using subsetting.
+ - Writing data files.
 
 ```
 Exercise 1: Processing of a 'dirty' dataset - finding and correcting errors. 
@@ -48,6 +52,7 @@ will write corrected dataset on the disk.
 ```
 
 ## Data reshaping with _tidyr_ package:
+ - Why may we need to 'reshape' our data?
  - The 'normal' data format for statistical analyses: column represent variables, rows represent observation.
  - The 'wide', or spreadsheet format.
  - Conversion from wide to normal with _gather()_, _separate()_ and _spread()_ functions
@@ -81,6 +86,9 @@ We will use the Ensembl genome browser database and an example.
 ## Other functions for joining datasets:
  - _dplyr_ functions: _bind_cols()_, _bind_rows()_, _union()_, _intersection()_, and _set_diff()_
  - base functions: _cbind()_, _rbind()_, _merge()_, _union()_, _intersect()_, _setdiff()_
+ - _plyr_ and its familly of _xxply(.data, .variables, .fun)_ functions
+
+> Due to the time limitations there will be no exercises for this subject, only the presentation.
 
 ---
 *** Second 6-hours session: ***
