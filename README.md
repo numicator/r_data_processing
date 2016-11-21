@@ -33,10 +33,11 @@ Date: 18-11-2016
  - Type conversions and coercions.
  - Working with date and date-time.
 
-## Files:
- - downloading,
- - reading,
- - writing.
+## Working with files:
+ - How to organize your directory structure.
+ - Downloading files form the web.
+ - Reading data files.
+ - Writing dta files.
 
 ```
 Exercise 1: Processing of a 'dirty' dataset - finding and correcting errors. 
