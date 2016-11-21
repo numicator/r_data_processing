@@ -42,6 +42,7 @@ Date: 18-11-2016
  - Checking your data for errors and inconsistences.
  - Data corection - finding and replacing values using subsetting.
  - Writing data files.
+ - Be careful with '$' partial matching!
 
 ```
 Exercise 1: Processing of a 'dirty' dataset - finding and correcting errors. 
@@ -86,9 +87,9 @@ We will use the Ensembl genome browser database and an example.
 ## Other functions for joining datasets:
  - _dplyr_ functions: _bind_cols()_, _bind_rows()_, _union()_, _intersection()_, and _set_diff()_
  - base functions: _cbind()_, _rbind()_, _merge()_, _union()_, _intersect()_, _setdiff()_
- - _plyr_ and its familly of _xxply(.data, .variables, .fun)_ functions
+ - _plyr_ package and its familly of _xxply(.data, .variables, .fun)_ functions.
 
-> Due to the time limitations there will be no exercises for this subject, only the presentation.
+> Due to the time limitations there will be no exercises for this subject, only a short presentation.
 
 ---
 *** Second 6-hours session: ***
@@ -97,7 +98,7 @@ We will use the Ensembl genome browser database and an example.
 # Writing functions in R:
  - What is a function and when is it useful?
  - Function elements - name, definition, arguments, body, return value.
- - Special functions: Infix and replacement
+ - Special functions: _Infix_ and _replacement_
 
 ```
 Exercise 5: We will write a function calculating area under a curve given 
@@ -106,8 +107,18 @@ calculated using the trapezoid rule. Then we will test our new function on
 a test dataset (which we first create).
 ```
 
+```
+Exercise 5b: Time permits, we will create and use the _Infix_ and _replacement_
+functions.
+```
+
 # Applying functions to the data - the 'apply' family of functions:
- - short presentation of the family members with special focus on _apply()_, _lapply()_, and _sapply()_
+ - How to loop through your data 'R-style'.
+ - Short presentation of the family members with special focus on _apply()_, _lapply()_, and _sapply()_.
+ - _apply()_ and type coersion.
+ - Traversing data row-by-row and creating new column.
+ - Traversing data column-by-column and creating new row.
+ - Creating a new data frame when traversing.
 
 ```
 Exercise 6: We will learn use of apply functions by processing two datasets: 
@@ -121,7 +132,9 @@ some tricks and nuisances associated with the apply functions.
 # Processing multiple files:
  - Listing directory, getting list of files.
  - Processing files one-by-one using the _for_ loop.
-
+ - Loading each file into a data.frame for processing.
+ - Adding columns to a data.frame.
+ 
 ```
 Exercise 7: We will download a ZIP archive containing numerous files with 
 gene expression data. We will learn how to unzip it directly from R, get 
